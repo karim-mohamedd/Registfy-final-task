@@ -7,7 +7,7 @@
   "executionRoleArn": "arn:aws:iam::286918585736:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
-      "name": "cicd-registfy",
+      "name": "nginx",
       "image": "nginx:latest",
       "portMappings": [
         {
